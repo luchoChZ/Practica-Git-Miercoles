@@ -1,0 +1,8 @@
+on: 
+  issues:
+    types: closed
+jobs:
+  AlAbrir:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Caso Cerrado ${{ github.evevt.issue.number }}"
