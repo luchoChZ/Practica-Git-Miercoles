@@ -1,3 +1,7 @@
+name: mensaje_abrir_issue
+on: 
+  issues:
+    types: opened
 jobs:
   build:
     runs-on: ubuntu-latest
