@@ -1,3 +1,7 @@
+name: mensaje_abrir_issue_Anidados
+on: 
+  issues:
+    types: opened
 jobs:
   setup:
     runs-on: ubuntu-latest
