@@ -1,0 +1,13 @@
+name: Test
+on: push
+jobs:
+  tarea1:
+    name: tarea 1
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create GitHub Issue
+        uses: DanielBarnes/create-issue-action@v1
+        with:
+          titel: "Push Asociado"
+        
+    
