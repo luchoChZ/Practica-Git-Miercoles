@@ -1,4 +1,4 @@
-name: mensaje_abrir_issue
+name: mensaje_abrir_issue_Otras caracteristicas
 on: 
   issues:
     types: opened
