@@ -5,4 +5,4 @@ jobs:
   AlAbrir:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Caso Abierto #${{ github.evevt.issue.number }}"
+      - run: echo "Caso Abierto ${{ github.evevt.issue.number }}"
