@@ -8,6 +8,6 @@ jobs:
       - name: Create GitHub Issue
         uses: DanielBarnes/create-issue-action@v1
         with:
-          titel: "Push Asociado"
+          title: "Push Asociado"
         
     
