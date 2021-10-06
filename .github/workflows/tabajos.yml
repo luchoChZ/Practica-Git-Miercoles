@@ -1,0 +1,19 @@
+name: mensaje_abrir_issue_Anidados
+on: 
+  issues:
+    types: opened
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Mensaje 01"
+  build:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Mensaje 02"
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Mensaje 03"

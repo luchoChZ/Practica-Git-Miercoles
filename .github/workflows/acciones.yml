@@ -1,3 +1,4 @@
+name: mensaje_abrir_issue
 on: 
   issues:
     types: opened

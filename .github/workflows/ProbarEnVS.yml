@@ -1,0 +1,12 @@
+name: mensaje_abrir_issue_Otras caracteristicas
+on: 
+  issues:
+    types: opened
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        vstools: [vc2017, vc2019, vs2022]
+    steps:
+      - run: echo "Caso ${{ matrix.vstools }} "
